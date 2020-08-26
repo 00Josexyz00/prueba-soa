@@ -61,7 +61,7 @@ foreach ($decodjson as $p)
 		$cont=$cont." ".$d;
 	}*/
 
-        $con = mysqli_connect("mysql-josecortez.alwaysdata.net", "211844", "uhPB8Cby!DGA4!e") or die("Sin conexion");
+        $con = mysqli_connect("mysql-josecortez.alwaysdata.net", "211844", "") or die("Sin conexion");
         
         mysqli_set_charset($con, "utf8");
 
